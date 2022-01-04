@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image:url(quagsire.gif);
+}
+.copy-right-footer{
+    font-weight:bold;
+    position:fixed;
+    bottom:0;
+    text-align:center;
+    line-height: 1.75;
+    background-color:rgb(61, 119, 228);
+    width:100%;
+}
+canvas{
+    background-color: rgb(176, 255, 176);
+    margin-top: 20px;
+    margin-left: 150px;
+    border:3px solid indigo;
+    animation-name: pog-z;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes pog-z{
+    from{
+        box-shadow: 10px 10px 45px indigo;
+    }
+    to{
+        box-shadow: 10px 10px 45px rgb(39, 104, 224);
+    }
+}
+.epic{
+    color: blue
+}
+.heading{
+    color: purple;
+}
+kbd{
+    background: transparent;
+    font-size:larger;
+}
+.asdf{
+    color:rgb(102, 0, 102);
+    font-weight: bold;
+    background-color:lightskyblue;
+}
